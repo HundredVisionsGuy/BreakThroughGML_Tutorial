@@ -15,3 +15,14 @@ if ( keyboard_check(vk_left) )
 		x = sprite_get_xoffset(sprite_index) + spd;
 	}
 }
+if ( keyboard_check(vk_right) ) 
+{
+	if ( x < room_width - sprite_get_xoffset(sprite_index) - spd )
+	{
+		x += spd;
+	}
+	else 
+	{
+		x = room_width - sprite_get_xoffset(sprite_index) - spd
+	}
+}
