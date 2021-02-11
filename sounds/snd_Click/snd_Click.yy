@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_Click",
-  "duration": 0.0,
+  "soundFile": "snd_Click.ogg",
+  "duration": 0.127472,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
