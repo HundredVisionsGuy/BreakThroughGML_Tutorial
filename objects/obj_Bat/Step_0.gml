@@ -26,3 +26,8 @@ if ( keyboard_check(vk_right) )
 		x = room_width - sprite_get_xoffset(sprite_index) - spd
 	}
 }
+// Move the ball object with the bat if the ball isn't moving yet
+with (obj_Ball)
+{
+	if !go x = other.x;
+}
